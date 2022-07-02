@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="name">Bhuvaneshwari</li>
+            <li><a href="#home" class="links">Home</a></li>
+            <li><a href="#about" class="links">About</a></li>
+            <li><a href="#work" class="links">Work</a></li>
+            <li><a href="#skills" class="links">Skills</a></li>
+            <li><a href="#contact" class="links">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+    <div>
+    <p><b>Surround yourself with people and things that inspire you. Learn everything you can.</b></p>
+    </div>
+</header>
+<section id ="about">
+   <img id="profilepic" src="mypic.jpg">
+    <article id="intro">I am a Technical Trainer with 10 years of experience in various technologies like C, C++, Data Structures, HTML, CSS, Javascript, Python. I enjoy learning which made me to teach as well. I am a dynamic communicator with good presentation skills. My hobbies are cooking, drawing and stitching.</article>
+</section>
+<section id="work">
+    <h3> Portfolio</h3>
+        <p>My Projects</p>
+        <hr>
+        <div>
+            <article class="project">
+                <h4>Chatbot GUI</h4>
+                <p>  Chatbot using Tkinter library </p>
+            </article>
+            <article class="project">
+                <h4>AI Based WebApp</h4>
+                <p> A simple web app created with the help of html, css and javascript</p>
+            </article>
+            <article class="project">
+                <h4>Self-Driving Car Simulation</h4>
+                <p> Simulation using pygame library</p>
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <h3 style="text-align: center;">Skills</h3><br>
+        <div id="skills-container">
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li> <progress max="100" value="80"></progress></li>
+                        <li>CSS</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>JS</li>
+                        <li><progress max="100" value="70"></progress></li>
+                        <li>Python</li>
+                        <li><progress max="100" value="90"></progress></li>
+                        <li>C, C++</li>
+                        <li><progress max="100" value="80"></progress></li>
+                    </ul>
+                    <div id="resume"><h4>To know more</h4>
+                    <a href="Resume.pdf">Download Resume</a>
+                </div>
+                </div>
+            </div>
+
+            
+    </section>
+    <footer id="contact">
+        <h4>Contact</h4>
+    <form action="">
+    <input class="input" type="text" placeholder="ENTER YOUR NAME">
+    <input class="input" type="text" placeholder="ENTER YOUR EMAIL">
+    <input class="input" type="text" placeholder="ENTER YOUR MESSAGE">
+    <input id="button" type="submit" value="SEND MESSAGE">
+    </form>
+    </footer>
+</body>
+</html>
