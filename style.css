@@ -6,6 +6,7 @@ body{
    background-color:ivory;
    font-size: 15px;
 }
+
 nav ul{
     display: flex;
     justify-content:space-between;
@@ -27,14 +28,18 @@ li{
     text-decoration: none;
     cursor:pointer;
 }
+
+
 #home{
     display: flex;
     background-color:darkseagreen;
     height: 70px;
     font-size: 20px;
     text-align: center;
-    padding-top: 30px;
+    padding-top:40px;
 }
+
+
 #profilepic{
     height: 180px;
     width: 150px;
@@ -46,11 +51,8 @@ li{
     display: flex;
     align-items: center;    
 }
-#resume{
-    padding: 5px 0 5px 0;
-    font-size: 15px;
-    text-align: center;
-}
+
+
 #work{
     background-color:darkkhaki;
     color:white;
@@ -62,7 +64,7 @@ li{
 hr{
     width:400px;
 }
-.project{
+span{
     background: white;
     color:black;
     height: 100px;
@@ -75,7 +77,6 @@ hr{
     border-radius: 10px;
     
 }
-
 #work 
 p, hr{
     margin-bottom: 10px;
@@ -87,6 +88,8 @@ p, hr{
     margin:10px 0;
     width: 100%;
 }
+
+
 li{
     display: flex;
     justify-content: space-around;
@@ -99,6 +102,15 @@ progress[value]{
     width: 350px;
     -webkit-appearance:none;
 }
+
+
+#resume{
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+
 #contact,form{
     background-color:burlywood;
     color: white;
@@ -107,7 +119,6 @@ progress[value]{
     align-items: center;
     padding: 3px 0 3px 0;
 }
-
 .input{
     line-height: 12px;
     width: 250px;
